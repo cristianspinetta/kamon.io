@@ -83,13 +83,14 @@ Simple metrics logger for quick feedback when you want to avoid setting up a ext
 Reports trace metrics data to [New Relic].
 
 
+### kamon-akka-http (experimental) {% requires_aspectj %} ###
+Provides bytecode instrumentation to gather metrics and perform automatic TraceContext propagation on your behalf for a Akka Http application, both on the client and server side.
+
 ### kamon-play-23, kamon-play-24 and kamon-play-25 {% requires_aspectj %} ###
 Provide bytecode instrumentation to achieve automatic TraceContext management for Play! applications.
 
-
 ### kamon-spray {% requires_aspectj %} ###
 Provides bytecode instrumentation to achieve automatic TraceContext management for Spray applications.
-
 
 ### kamon-system-metrics ###
 Reports CPU, memory, file system, network, load average and context switch system-wide metrics and JVM specific metrics

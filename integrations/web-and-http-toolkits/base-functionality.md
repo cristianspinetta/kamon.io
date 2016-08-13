@@ -52,12 +52,13 @@ Then, searching for a single trace token can give you the logs of all interactio
 entire fleet of servers.
 
 
-All the functionality described here is provided for both Spray and Play!, look at their specific sections for more
+All the functionality described here is provided for [Akka Http], [Spray] and [Play!], look at their specific sections for more
 details on how to control and customize their behaviour. 
 
 
 
 [tracing core concepts section]: /core/metrics/core-concepts/
+[Akka Http]: http://doc.akka.io/docs/akka/current/scala/http/
 [Spray]: http://spray.io/
 [Play!]: http://www.playframework.com/
 [including the trace token in your logs]: /integrations/logback/trace-token-converter/
